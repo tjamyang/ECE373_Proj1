@@ -23,11 +23,7 @@ class player{
 	//call(){}
 	//fold(){}
 }
-class table{
-	//
-	//
-	//
-}
+
 
 class GamePlay{
 	//preflop(int players){//players
@@ -48,4 +44,30 @@ class GamePlay{
 	//river(){
 		//determine winner
 		//continue Y/N?
+}
+AI{
+	//create play generate random name
+	//play game according to rules
+
+main{
+	//grab players, create, bet
+//sends info to database & client
+	//deck.create()
+//sends info to database & client	
+}
+save/restore
+
+class GUI{
+//table
+//deck
+//players
+	//hand 
+	//name
+//money
+}
+
+class Input{
+	//pre-game input, username
+	//betting input
+	//end-game inputs
 }
