@@ -1,0 +1,73 @@
+class Card{
+	//suit
+	//#
+}
+
+class Deck{
+	//deck = card[52]
+	//create(){
+		//make card[52]
+	//deal(int cards)
+	//shuffle()
+	//burn(int)
+	//reveal()
+	
+}
+
+class player{
+	//create(string username){//for the start of every new game }
+	//hand = card[2]
+	//int money
+	//bet(int){}
+	//raise(int){}
+	//call(){}
+	//fold(){}
+}
+
+
+class GamePlay{
+	//preflop(int players){//players
+		//organize players into turns
+		//deck deals cards to players
+		//in order, players can bet, raise, call, fold
+		//return state
+		}
+	//flop(state from preflop){
+		//deck.burn(1)
+		//deck.reveal(3)
+		//in order, players can bet, raise, call, fold
+	}
+	//turn(){
+		//deck.burn(1)
+		//deck.reveal(3)
+		//in order, players can bet, raise, call, fold
+	//river(){
+		//determine winner
+		//continue Y/N?
+}
+AI{
+	//create play generate random name
+	//play game according to rules
+
+main{
+	//grab players, create, bet
+//sends info to database & client
+	//deck.create()
+//sends info to database & client	
+}
+save/restore
+
+class GUI{
+//table
+//deck
+//players
+	//hand 
+	//name
+//money
+}
+
+class Input{
+	//pre-game input, username
+	//betting input
+	//end-game inputs
+}
